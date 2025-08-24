@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes - Ferramentas Básicas do Office</title>
+    <link rel="stylesheet" href="detalhes.css">
+</head>
+<body>
+    <main class="container">
+        <div class="cabecalho-curso">
+            <a href="/" class="link-voltar">&larr; Voltar para a lista de cursos</a>
+            <h1>Ferramentas Básicas do Office</h1>
+        </div>
+        <div class="layout-curso">
+            <div class="container-imagem-curso">
+                <img src="/imagens/office.png" alt="Ícones do Pacote Office">
+            </div>
+            <div class="container-info-curso">
+                <h2>Descrição Completa</h2>
+                <p>Domine as ferramentas essenciais para o mercado de trabalho. Este curso cobre as funcionalidades fundamentais do Word para criação de documentos, Excel para planilhas e cálculos, e PowerPoint para apresentações impactantes.</p>
+                <ul class="metadados-curso">
+                    <li><strong>Carga Horária:</strong> 30 horas</li>
+                    <li><strong>Instrutor:</strong> Ricardo Neves</li>
+                    <li><strong>Nível:</strong> Iniciante</li>
+                    <li><strong>Vagas Disponíveis:</strong> 25</li>
+                </ul>
+                <div class="caixa-compra">
+                    <div class="info-preco">
+                        <strong>Preço por vaga:</strong>
+                        <span class="valor-preco">R$ <span id="preco-unitario">450.00</span></span>
+                    </div>
+                    <div class="seletor-quantidade">
+                        <label for="quantidade">Quantidade de Vagas:</label>
+                        <input type="number" id="quantidade" name="quantidade" value="1" min="1" max="25">
+                    </div>
+                    <div class="preco-total">
+                        <h2>Valor Total: R$ <span id="valor-total">450.00</span></h2>
+                    </div>
+                    <button class="btn-comprar">Inscrever-se Agora</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/calcula-total.js" defer></script>
+</body>
+</html>

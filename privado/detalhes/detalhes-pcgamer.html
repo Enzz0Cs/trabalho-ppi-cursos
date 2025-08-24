@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes - Como Montar seu PC Gamer</title>
+    <link rel="stylesheet" href="detalhes.css">
+</head>
+<body>
+    <main class="container">
+        <div class="cabecalho-curso">
+            <a href="/" class="link-voltar">&larr; Voltar para a lista de cursos</a>
+            <h1>Como Montar seu PC Gamer</h1>
+        </div>
+        <div class="layout-curso">
+            <div class="container-imagem-curso">
+                <img src="/imagens/pcgamer.jpg" alt="Montagem de um PC Gamer com luzes RGB">
+            </div>
+            <div class="container-info-curso">
+                <h2>Descrição Completa</h2>
+                <p>Neste curso prático, você aprenderá passo a passo a selecionar os melhores componentes, montar um PC do zero, instalar o sistema operacional e otimizar a máquina para obter o máximo de desempenho em jogos e tarefas pesadas.</p>
+                <ul class="metadados-curso">
+                    <li><strong>Carga Horária:</strong> 16 horas (2 finais de semana)</li>
+                    <li><strong>Instrutor:</strong> Carlos "Tech" Silva</li>
+                    <li><strong>Nível:</strong> Iniciante a Intermediário</li>
+                    <li><strong>Vagas Disponíveis:</strong> 15</li>
+                </ul>
+                <div class="caixa-compra">
+                    <div class="info-preco">
+                        <strong>Preço por vaga:</strong>
+                        <span class="valor-preco">R$ <span id="preco-unitario">799.00</span></span>
+                    </div>
+                    <div class="seletor-quantidade">
+                        <label for="quantidade">Quantidade de Vagas:</label>
+                        <input type="number" id="quantidade" name="quantidade" value="1" min="1" max="15">
+                    </div>
+                    <div class="preco-total">
+                        <h2>Valor Total: R$ <span id="valor-total">799.00</span></h2>
+                    </div>
+                    <button class="btn-comprar">Inscrever-se Agora</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/calcula-total.js" defer></script>
+</body>
+</html>
