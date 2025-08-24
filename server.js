@@ -33,7 +33,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'publico', 'paginainicial.html'));
 });
 
-// Rota para processar o login
 app.post('/login', (req, res) => {
     const { usuario, senha } = req.body;
     if (usuario === USUARIO_VALIDO.usuario && senha === USUARIO_VALIDO.senha) {
